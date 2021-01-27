@@ -17,8 +17,12 @@ def index():
         <h1>login</h1>
         <form action="/check_login" method="post">username: <br>
             <input type="text" name="user">
+            <input type="password" name="pw">
+            <input type="submit" value='login>
         </form>
         <p><a href="/private">private page</a></p>
+      </body>
+    </html>
          """
 
 
